@@ -1,0 +1,40 @@
+#first_name_error,#last_name_error,#email_error,#password_error,#confirm_password_error,#login_email_error,#login_password_error{
+    display: none;
+}
+
+.password_error,.confirm_password_error,.email_error
+{
+    display: none;
+}
+
+#blog_name_error,#blog_email_error,#blog_category_error,#blog_error,#blog_date
+{
+    display: none;
+}
+
+.profile_picture{
+    padding-top: 30px;
+    width: fit-content;
+    margin: auto;
+    position: sticky;
+    left: auto;
+    top: 20px;
+}
+
+#comment_error,#comment_email_error,#comment_name_error{
+    display: none;
+}
+.fa {
+font-size: 50px;
+cursor: pointer;
+user-select: none;
+}
+
+.fa:hover {
+color: red;
+}
+
+#search_error
+{
+    display: none;
+}
